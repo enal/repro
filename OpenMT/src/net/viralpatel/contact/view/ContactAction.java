@@ -37,7 +37,18 @@ public class ContactAction extends ActionSupport {
         this.contactList = contactManager.list();
         return SUCCESS;
     }
- 
+
+    public String start() {
+        System.out.println(getContact());
+        try {
+            contactManager.add(getContact());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        this.contactList = contactManager.list();
+        return SUCCESS;
+    }
+    
     public String delete() {
         contactManager.delete(getId());
         return SUCCESS;

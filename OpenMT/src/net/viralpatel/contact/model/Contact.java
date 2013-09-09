@@ -22,7 +22,13 @@ public class Contact implements Serializable{
     private String cellNo;
     private Date birthDate;
     private String website;
-     
+
+    private String source;
+    private String target;
+    
+    private String mapper;
+    private String apiKey;
+    
     private Date created;
  
     @Id
@@ -59,6 +65,24 @@ public class Contact implements Serializable{
     public Date getCreated() {
         return created;
     }
+    @Column(name="source")
+    public String getSource() {
+        return source;
+    }
+    @Column(name="target")
+    public String getTarget() {
+        return target;
+    }
+    @Column(name="mapper")
+    public String getMapper() {
+        return mapper;
+    }
+    @Column(name="apiKey")
+    public String getApiKey() {
+        return apiKey;
+    }
+    
+    
     public void setId(Long id) {
         this.id = id;
     }
@@ -82,5 +106,18 @@ public class Contact implements Serializable{
     }
     public void setWebsite(String website) {
         this.website = website;
+    }
+    
+    public void setSource(String source) {
+        this.source = source;
+    }
+    public void setTarget(String target) {
+        this.target = target;
+    }
+    public void setMapper(String mapper) {
+        this.mapper = mapper;
+    }
+    public void setApiKey(String apiKey) {
+        this.apiKey = apiKey;
     }
 }

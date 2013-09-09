@@ -34,5 +34,8 @@
 	<classpathentry kind="lib" path="C:/Users/Esra/Desktop/Software/StrutsHibernate/WebContent/WEB-INF/lib/slf4j-log4j12-1.4.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Esra/Desktop/Software/StrutsHibernate/WebContent/WEB-INF/lib/struts2-core-2.1.8.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Esra/Desktop/Software/StrutsHibernate/WebContent/WEB-INF/lib/xwork-core-2.1.6.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Test"/>
+	<classpathentry kind="lib" path="C:/Users/Esra/Masterarbeit/lib/OpenMT/OpenMT/WebContent/WEB-INF/lib/struts2-dojo-plugin-2.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Esra/Masterarbeit/lib/OpenMT/OpenMT/WebContent/WEB-INF/lib/struts2-tiles-plugin-2.1.6.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

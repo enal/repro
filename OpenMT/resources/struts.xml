@@ -23,5 +23,12 @@
 		<action name="index" class="net.viralpatel.contact.view.ContactAction">
 			<result name="success">index.jsp</result>
 		</action>
+		
+		<action name="start" class="net.viralpatel.contact.view.ContactAction"
+			method="start">
+			<result name="success" type="chain">index</result>
+		</action>
+		
+		
 	</package>
 </struts>
